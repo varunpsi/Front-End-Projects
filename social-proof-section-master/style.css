@@ -1,0 +1,126 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+
+h1 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h5 {
+    display: inline-block;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.container {
+    height: 500px;
+    width: 80%;
+    margin: 100px auto auto 130px;
+}
+
+.upper-part {
+    height: 50%;
+    display: block;
+}
+
+.upper-child {
+    width: 50%;
+    float: left;
+}
+
+.review-stars {
+    border: solid 0px;
+    padding: 15px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 75%;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.star1 {
+    margin-top: 30px;
+}
+
+.star2 {
+    margin-left: 50px;
+}
+
+.star3 {
+    margin-left: 90px;
+}
+
+.lower-part {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.lower-child {
+    margin: 20px 30px auto 0;
+    width: 30%;
+    height: 210px;
+    background-color: hsl(300, 43%, 22%);
+    border: solid 0px;
+    border-radius: 10px;
+    flex: 1 1 0px;
+}
+
+.name {
+    color: hsl(300, 24%, 96%);
+}
+
+.image {
+    height: 50px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.buyer-property {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.image-name {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.review-text {
+    color: hsl(300, 24%, 96%);
+    font-size: 12px;
+    margin: 25px;
+    margin-top: 10px;
+}
+
+.child2 {
+    margin-top: 40px;
+}
+
+.child3 {
+    margin-top: 60px;
+}
+
+.svg1 {
+	position: absolute;
+    left: -5%;
+    top: 0;
+}
+
+.svg2 {
+    position: absolute;
+    right: 0%;
+    top: 20%;
+    height: 80%;
+    width: 90%;
+}
